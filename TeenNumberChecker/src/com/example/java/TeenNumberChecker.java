@@ -3,11 +3,11 @@ package com.example.java;
 public class TeenNumberChecker {
 
     public static boolean hasTeen(int a, int b, int c){
-        if(((a>13) && (a<20) || (b>13) && (b<20) || (c>13) && (c<20))){
-            System.out.println("THIS IS TRUE");
+        if(((a>12) && (a<20) || (b>12) && (b<20) || (c>12) && (c<20))){
+            System.out.println(true);
             return true;
         } else {
-            System.out.println("THIS IS FALSE");
+            System.out.println(false);
             return false;
         }
     }
